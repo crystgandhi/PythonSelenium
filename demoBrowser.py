@@ -25,7 +25,7 @@ driver.maximize_window()
 driver.find_element(By.XPATH, "//input[@id='firstName']").send_keys("John")
 driver.find_element(By.XPATH, "//input[@id='lastName']").send_keys("Smith")
 driver.find_element(By.XPATH, "//label[@for='gender-radio-1']").click()
-driver.find_element(By.XPATH, "//input[@id='userNumber']").send_keys("3541103449")
+driver.find_element(By.XPATH, "//input[@id='userNumber']").send_keys("3595803449")
 driver.find_element(By.XPATH, "//*[@id='subjectsContainer']/div/div[1]").send_keys("Application")
 
 try:
